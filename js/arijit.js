@@ -9,102 +9,102 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/arijit/meet.mp3');
+let audioElement = new Audio ('arijit/meet.mp3');
 let song = [
   {
     songName: "Meet",
-    filePath: "/arijit/meet.mp3",
+    filePath: "arijit/meet.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Dekha Hazaron Dafa",
-    filePath: "/arijit/dekhahazaron.mp3",
+    filePath: "arijit/dekhahazaron.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Main Hoon Sath Tere",
-    filePath: "/arijit/meinhoonsathtere.mp3",
+    filePath: "arijit/meinhoonsathtere.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Milne Hai Mujhse Aayi",
-    filePath: "/arijit/milnehaimujhse.mp3",
+    filePath: "arijit/milnehaimujhse.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Pal Pal Dil Ke Pass",
-    filePath: "/arijit/palpal.mp3",
+    filePath: "arijit/palpal.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "Khairiyat",
-    filePath: "/arijit/khairiyat.mp3",
+    filePath: "arijit/khairiyat.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Apna Bana Le",
-    filePath: "/arijit/apnabanale.mp3",
+    filePath: "arijit/apnabanale.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Uska Hi Banana",
-    filePath: "/arijit/uskahi.mp3",
+    filePath: "arijit/uskahi.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
-  { songName: "Lambiyaan Si Judaiyaan", filePath: "/arijit/lambiyan.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+  { songName: "Lambiyaan Si Judaiyaan", filePath: "arijit/lambiyan.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Tum Hi Ho",
-    filePath: "/arijit/tumhiho.mp3",
+    filePath: "arijit/tumhiho.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Main Dhoondne Ko Zamaane Mein",
-    filePath: "/arijit/meindhoondhne.mp3",
+    filePath: "arijit/meindhoondhne.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Phir Bhi Tumko Chaahunga",
-    filePath: "/arijit/phirbhi.mp3",
+    filePath: "arijit/phirbhi.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Agar Tum Sath Ho",
-    filePath: "/arijit/agartum.mp3",
+    filePath: "arijit/agartum.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tujhe Kitna Chahne Lage",
-    filePath: "/arijit/tujhekitna.mp3",
+    filePath: "arijit/tujhekitna.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Phir Mohabbat",
-    filePath: "/arijit/phirmohabbat.mp3",
+    filePath: "arijit/phirmohabbat.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Thodi Jagah",
-    filePath: "/arijit/thodijagah.mp3",
+    filePath: "arijit/thodijagah.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Sanam Re",
-    filePath: "/arijit/sanamre.mp3",
+    filePath: "arijit/sanamre.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Lo Maan Liya",
-    filePath: "/arijit/lomaanliya.mp3",
+    filePath: "arijit/lomaanliya.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Sawan Aaya Hai",
-    filePath: "/arijit/sawan.mp3",
+    filePath: "arijit/sawan.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Humdard",
-    filePath: "/arijit/humdard.mp3",
+    filePath: "arijit/humdard.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
