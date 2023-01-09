@@ -9,72 +9,72 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/romance/perfect.mp3');
+let audioElement = new Audio ('romance/perfect.mp3');
 let song = [
   {
     songName: "Perfect",
-    filePath: "/romance/perfect.mp3",
+    filePath: "romance/perfect.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Heat Waves",
-    filePath: "/romance/heat.mp3",
+    filePath: "romance/heat.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Harleys In Hawaii",
-    filePath: "/romance/harleys.mp3",
+    filePath: "romance/harleys.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Baby",
-    filePath: "/romance/baby.mp3",
+    filePath: "romance/baby.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Umbrella",
-    filePath: "/romance/umbrella.mp3",
+    filePath: "romance/umbrella.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "A Thousand Years",
-    filePath: "/romance/thousand.mp3",
+    filePath: "romance/thousand.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Untill I Found You",
-    filePath: "/romance/untill.mp3",
+    filePath: "romance/untill.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "At My Worst",
-    filePath: "/romance/worst.mp3",
+    filePath: "romance/worst.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
-  { songName: "Make You Mine", filePath: "/romance/makeyoumine.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+  { songName: "Make You Mine", filePath: "romance/makeyoumine.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Girls Like You",
-    filePath: "/romance/girls.mp3",
+    filePath: "romance/girls.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Senorita",
-    filePath: "/romance/senorita.mp3",
+    filePath: "romance/senorita.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Love Me Like You Do",
-    filePath: "/romance/lovemelike.mp3",
+    filePath: "romance/lovemelike.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "I Like Me Better When I'm With You",
-    filePath: "/romance/ilikeme.mp3",
+    filePath: "romance/ilikeme.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Love Your Voice",
-    filePath: "/romance/voice.mp3",
+    filePath: "romance/voice.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
