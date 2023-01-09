@@ -89,7 +89,7 @@ let song = [
   },
   {
     songName: "Kinna Sona",
-    filePath: "/bollywoodromance/kinnasona.mp3",
+    filePath: "bollywoodromance/kinnasona.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
