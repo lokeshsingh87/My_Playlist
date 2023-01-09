@@ -9,57 +9,57 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/soul/aathmarama.mp3');
+let audioElement = new Audio ('soul/aathmarama.mp3');
 let song = [
   {
     songName: "Aathma Rama",
-    filePath: "/soul/aathmarama.mp3",
+    filePath: "soul/aathmarama.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Hare Krishna Hare Rama",
-    filePath: "/soul/harekrishna.mp3",
+    filePath: "soul/harekrishna.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Hey Ram",
-    filePath: "/soul/heyram.mp3",
+    filePath: "soul/heyram.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Kishori Kuch Aisa",
-    filePath: "/soul/kishorikuchaisa.mp3",
+    filePath: "soul/kishorikuchaisa.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Madhurakshtam",
-    filePath: "/soul/Madhurashtakam.mp3",
+    filePath: "soul/Madhurashtakam.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "Namo Namo",
-    filePath: "/soul/namonamo.mp3",
+    filePath: "soul/namonamo.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Narayan Mil Jayega",
-    filePath: "/soul/narayanmiljayega.mp3",
+    filePath: "soul/narayanmiljayega.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Radha Rani Laage",
-    filePath: "/soul/radharaanilage.mp3",
+    filePath: "soul/radharaanilage.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
   { songName: "Ram Siya Ram", filePath: "/soul/ramsiyaram.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Sankatmochan Hanuman Ashtak",
-    filePath: "/soul/hanumanashtak.mp3",
+    filePath: "soul/hanumanashtak.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Sawli Surat Pe Mohan",
-    filePath: "/soul/sawlisurat.mp3",
+    filePath: "soul/sawlisurat.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
