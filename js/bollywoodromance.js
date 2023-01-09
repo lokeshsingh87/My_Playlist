@@ -9,147 +9,147 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/bollywoodromance/dilkyuyemera.mp3');
+let audioElement = new Audio ('bollywoodromance/dilkyuyemera.mp3');
 let song = [
   {
     songName: "Dil Kyu Mera",
-    filePath: "/bollywoodromance/dilkyuyemera.mp3",
+    filePath: "bollywoodromance/dilkyuyemera.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Tum Se Hi",
-    filePath: "/bollywoodromance/tumsehi.mp3",
+    filePath: "bollywoodromance/tumsehi.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Nazm Nazm",
-    filePath: "/bollywoodromance/nazmnazm.mp3",
+    filePath: "bollywoodromance/nazmnazm.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Dil Jaaniye",
-    filePath: "/bollywoodromance/diljaaniye.mp3",
+    filePath: "bollywoodromance/diljaaniye.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Mein Agar Kahoon",
-    filePath: "/bollywoodromance/meinagarkahoon.mp3",
+    filePath: "bollywoodromance/meinagarkahoon.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "Tere Sang Yaara",
-    filePath: "/bollywoodromance/teresangyaara.mp3",
+    filePath: "bollywoodromance/teresangyaara.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Jab Tak",
-    filePath: "/bollywoodromance/jabtak.mp3",
+    filePath: "bollywoodromance/jabtak.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Rabb Manneya",
-    filePath: "/bollywoodromance/rabbmaneya.mp3",
+    filePath: "bollywoodromance/rabbmaneya.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
-  { songName: "Tum Jo Aaye", filePath: "/bollywoodromance/tumjoaaye.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+  { songName: "Tum Jo Aaye", filePath: "bollywoodromance/tumjoaaye.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Rang Lageya ",
-    filePath: "/bollywoodromance/ranglageya.mp3",
+    filePath: "bollywoodromance/ranglageya.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Mera Bina",
-    filePath: "/bollywoodromance/merebina.mp3",
+    filePath: "bollywoodromance/merebina.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Mera Mann Kehne Laga",
-    filePath: "/bollywoodromance/meramann.mp3",
+    filePath: "bollywoodromance/meramann.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Chaar Kadam",
-    filePath: "/bollywoodromance/chaarkadam.mp3",
+    filePath: "bollywoodromance/chaarkadam.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Soniyo",
-    filePath: "/bollywoodromance/soniyo.mp3",
+    filePath: "bollywoodromance/soniyo.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Aankhon Se Batana",
-    filePath: "/bollywoodromance/aankhonsebatana.mp3",
+    filePath: "bollywoodromance/aankhonsebatana.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Pehli Nazar Mein",
-    filePath: "/bollywoodromance/pehlinazarmein.mp3",
+    filePath: "bollywoodromance/pehlinazarmein.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Kinna Sona",
-    filePath: "/bollywoodromance/kinnasona.mp3",
+    filePath: "bollywoodromance/kinnasona.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tera Naam Doon",
-    filePath: "/bollywoodromance/teranaamdoon.mp3",
+    filePath: "bollywoodromance/teranaamdoon.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Dil Meri Naa Sune",
-    filePath: "/bollywoodromance/dilmerinasune.mp3",
+    filePath: "bollywoodromance/dilmerinasune.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Do Dil Mil Rahe Hai",
-    filePath: "/bollywoodromance/dodilmil.mp3",
+    filePath: "bollywoodromance/dodilmil.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Ek Din Aap",
-    filePath: "/bollywoodromance/ekdinaap.mp3",
+    filePath: "bollywoodromance/ekdinaap.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Mein Koi Aisa Geet Gaun",
-    filePath: "/bollywoodromance/meinkoiaisa.mp3",
+    filePath: "bollywoodromance/meinkoiaisa.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Sawar Loon",
-    filePath: "/bollywoodromance/sawarloon.mp3",
+    filePath: "bollywoodromance/sawarloon.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tera Fitoor",
-    filePath: "/bollywoodromance/terafitoor.mp3",
+    filePath: "bollywoodromance/terafitoor.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tujh Mein Rabb Dikhta Hai",
-    filePath: "/bollywoodromance/tujhmeinrab.mp3",
+    filePath: "bollywoodromance/tujhmeinrab.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tumse Milke Dil Ka",
-    filePath: "/bollywoodromance/tumsemilke.mp3",
+    filePath: "bollywoodromance/tumsemilke.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Chaand Shifarish",
-    filePath: "/bollywoodromance/chandshifarish.mp3",
+    filePath: "bollywoodromance/chandshifarish.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tumhe Jo Maine Jo Dekha",
-    filePath: "/bollywoodromance/tumhejomainedekha.mp3",
+    filePath: "bollywoodromance/tumhejomainedekha.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tu Jaane Na",
-    filePath: "/bollywoodromance/tujaanena.mp3",
+    filePath: "bollywoodromance/tujaanena.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
