@@ -9,82 +9,82 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/chill/are.mp3');
+let audioElement = new Audio ('chill/are.mp3');
 let song = [
   {
     songName: "Aare Aare",
-    filePath: "/chill/are.mp3",
+    filePath: "chill/are.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Mast Magan",
-    filePath: "/chill/mast.mp3",
+    filePath: "chill/mast.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Gazab Ka Hai Ye Din",
-    filePath: "/chill/gazabka.mp3",
+    filePath: "chill/gazabka.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Dil Jaaniye",
-    filePath: "/bollywoodromance/diljaaniye.mp3",
+    filePath: "bollywoodromance/diljaaniye.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Mein Agar Kahoon",
-    filePath: "/bollywoodromance/meinagarkahoon.mp3",
+    filePath: "bollywoodromance/meinagarkahoon.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "Naino Ne Baandhi",
-    filePath: "/chill/nainone.mp3",
+    filePath: "chill/nainone.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Navi Navi Yaari",
-    filePath: "/chill/navinavi.mp3",
+    filePath: "chill/navinavi.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Chan Vekhya",
-    filePath: "/chill/chanvekhya.mp3",
+    filePath: "chill/chanvekhya.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Qaafirana",
-    filePath: "/chill/qafirana.mp3",
+    filePath: "chill/qafirana.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
-  { songName: "Champagne", filePath: "/chill/champagne.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+  { songName: "Champagne", filePath: "chill/champagne.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Dil To Bachha Hai",
-    filePath: "/chill/diltobacha.mp3",
+    filePath: "chill/diltobacha.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Ambarsariya",
-    filePath: "/chill/ambarsariya.mp3",
+    filePath: "chill/ambarsariya.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Chaar Kadam",
-    filePath: "/bollywoodromance/chaarkadam.mp3",
+    filePath: "bollywoodromance/chaarkadam.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Raat Di Gedi",
-    filePath: "/chill/raatdigedi.mp3",
+    filePath: "chill/raatdigedi.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Jugrafiya",
-    filePath: "/chill/jugrafiya.mp3",
+    filePath: "chill/jugrafiya.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Chauffeur",
-    filePath: "/chill/chauffeur.mp3",
+    filePath: "chill/chauffeur.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
