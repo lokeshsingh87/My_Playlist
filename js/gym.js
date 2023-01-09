@@ -9,76 +9,76 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/gym/devil.mp3');
+let audioElement = new Audio ('gym/devil.mp3');
 let song = [
   {
     songName: "Devil",
-    filePath: "/gym/devil.mp3",
+    filePath: "gym/devil.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Selfmade",
-    filePath: "/gym/selfmade.mp3",
+    filePath: "gym/selfmade.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Sarkar",
-    filePath: "/gym/sarkar.mp3",
+    filePath: "gym/sarkar.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Defaulter",
-    filePath: "/gym/defaulter.mp3",
+    filePath: "gym/defaulter.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Brotherhood",
-    filePath: "/gym/brotherhood.mp3",
+    filePath: "gym/brotherhood.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "Gangland",
-    filePath: "/gym/gangland.mp3",
+    filePath: "gym/gangland.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Aarambh",
-    filePath: "/gym/aarambh.mp3",
+    filePath: "gym/aarambh.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Shoorveer",
-    filePath: "/gym/1.mp3",
+    filePath: "gym/1.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
 {
     songName: "Glitch",
-    filePath: "/gym/glitch.mp3",
+    filePath: "gym/glitch.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Shiv Tandav Stotram",
-    filePath: "/gym/stotram.mp3",
+    filePath: "gym/stotram.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "So High",
-    filePath: "/gym/sohigh.mp3",
+    filePath: "gym/sohigh.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Shoorveer 2",
-    filePath: "/gym/2.mp3",
+    filePath: "gym/2.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Same Beef",
-    filePath: "/gym/samebeef.mp3",
+    filePath: "gym/samebeef.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Shoorveer 3",
-    filePath: "/gym/3.mp3",
+    filePath: "gym/3.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
