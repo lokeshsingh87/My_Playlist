@@ -9,82 +9,82 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/mix/dildiyan.mp3');
+let audioElement = new Audio ('mix/dildiyan.mp3');
 let song = [
   {
     songName: "Dil Diyan Gallan",
-    filePath: "/mix/dildiyan.mp3",
+    filePath: "mix/dildiyan.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Mahi Ve",
-    filePath: "/mix/mahive.mp3",
+    filePath: "mix/mahive.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Raanjhanaa",
-    filePath: "/mix/raanjhanaa.mp3",
+    filePath: "mix/raanjhanaa.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Jannat",
-    filePath: "/mix/jannat.mp3",
+    filePath: "mix/jannat.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Heer Ranjha",
-    filePath: "/mix/heerranjha.mp3",
+    filePath: "mix/heerranjha.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "Tere Bin",
-    filePath: "/mix/terebin.mp3",
+    filePath: "mix/terebin.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Iktara",
-    filePath: "/mix/iktara.mp3",
+    filePath: "mix/iktara.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Mehrama",
-    filePath: "/mix/mehrama.mp3",
+    filePath: "mix/mehrama.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
-  { songName: "Thoda Thoda Pyaar", filePath: "/mix/thoda.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+  { songName: "Thoda Thoda Pyaar", filePath: "mix/thoda.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Mere Yaara",
-    filePath: "/mix/mereyaara.mp3",
+    filePath: "mix/mereyaara.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Ki Kariye",
-    filePath: "/mix/kikariye.mp3",
+    filePath: "mix/kikariye.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Kabhi Tumhe",
-    filePath: "/mix/kabhitumhe.mp3",
+    filePath: "mix/kabhitumhe.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Raatan Lambiyan",
-    filePath: "/mix/raatanalambiyan.mp3",
+    filePath: "mix/raatanalambiyan.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Sang Na",
-    filePath: "/mix/sangna.mp3",
+    filePath: "mix/sangna.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Kalle Rehn De",
-    filePath: "/mix/kalley.mp3",
+    filePath: "mix/kalley.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Darkhast",
-    filePath: "/mix/darkhast.mp3",
+    filePath: "mix/darkhast.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
