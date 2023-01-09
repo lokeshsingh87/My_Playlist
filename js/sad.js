@@ -9,82 +9,82 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/arijit/ektarfa.mp3');
+let audioElement = new Audio ('arijit/ektarfa.mp3');
 let song = [
     {
         songName: "Ek Tarfa",
-        filePath: "/arijit/ektarfa.mp3",
+        filePath: "arijit/ektarfa.mp3",
         coverPath: "/Img/Aathma.jpeg",
       },
       {
         songName: "Scared To Love",
-        filePath: "/arijit/scared.mp3",
+        filePath: "arijit/scared.mp3",
         coverPath: "/Img/Harekrishna.jpeg",
       },
       {
         songName: "Faasle",
-        filePath: "/arijit/fasle.mp3",
+        filePath: "arijit/fasle.mp3",
         coverPath: "/Img/Heram.jpeg",
       },
       {
         songName: "Dillagi",
-        filePath: "/arijit/dillagi.mp3",
+        filePath: "arijit/dillagi.mp3",
         coverPath: "/Img/Kishori.jpeg",
       },
       {
         songName: "Zaroori tha",
-        filePath: "/arijit/zarooritha.mp3",
+        filePath: "arijit/zarooritha.mp3",
         coverPath: "/Img/Madhu.jpeg",
       },
       {
         songName: "joker",
-        filePath: "/arijit/joker.mp3",
+        filePath: "arijit/joker.mp3",
         coverPath: "/Img/namonamo.jpeg",
       },
       {
         songName: "Mann Bharreya",
-        filePath: "/arijit/mannbharrya.mp3",
+        filePath: "arijit/mannbharrya.mp3",
         coverPath: "/Img/Narayan.jpeg",
       },
       {
         songName: "Uska Hi Banana",
-        filePath: "/arijit/uskahi.mp3",
+        filePath: "arijit/uskahi.mp3",
         coverPath: "/Img/Radharani.jpeg",
       },
-      { songName: "Ek Tarfa", filePath: "/arijit/ektrfa.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+      { songName: "Ek Tarfa", filePath: "arijit/ektrfa.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
       {
         songName: "Sunn Raha Hai Na Tu",
-        filePath: "/arijit/sunraha.mp3",
+        filePath: "arijit/sunraha.mp3",
         coverPath: "/Img/Hanuman.jpeg",
       },
       {
         songName: "Main Dhoondne Ko Zamaane Mein",
-        filePath: "/arijit/meindhoondhne.mp3",
+        filePath: "arijit/meindhoondhne.mp3",
         coverPath: "/Img/Sawlisurat.jpeg",
       },
       {
         songName: "Phir Bhi Tumko Chaahunga",
-        filePath: "/arijit/phirbhi.mp3",
+        filePath: "arijit/phirbhi.mp3",
         coverPath: "/Img/Sawlisurat.jpeg",
       },
       {
         songName: "Agar Tum Sath Ho",
-        filePath: "/arijit/agartum.mp3",
+        filePath: "arijit/agartum.mp3",
         coverPath: "/Img/Sawlisurat.jpeg",
       },
       {
         songName: "Ek Raat",
-        filePath: "/arijit/ekraat.mp3",
+        filePath: "arijit/ekraat.mp3",
         coverPath: "/Img/Sawlisurat.jpeg",
       },
       {
         songName: "Aaj Bhi",
-        filePath: "/arijit/aajbhi.mp3",
+        filePath: "arijit/aajbhi.mp3",
         coverPath: "/Img/Sa.jpeg",
       },
       {
         songName: "O Re Piya",
-        filePath: "/arijit/orepiya.mp3",
+        filePath: "arijit/orepiya.mp3",
         coverPath: "/Img/Sawlisurat.jpeg",
       },
 ];
