@@ -9,107 +9,107 @@ let volumeBar = document.getElementById("volumeBar");
 let playpause = document.getElementById("playpause");
 let backward = document.getElementById("backward");
 let forward = document.getElementById("forward");
-let audioElement = new Audio ('/90/meresapnokirani.mp3');
+let audioElement = new Audio ('90/meresapnokirani.mp3');
 let song = [
   {
     songName: "Mere Sapno Ki Rani",
-    filePath: "/90/meresapnokirani.mp3",
+    filePath: "90/meresapnokirani.mp3",
     coverPath: "/Img/Aathma.jpeg",
   },
   {
     songName: "Jane Kahan Mera Jigar Gya Ji",
-    filePath: "/90/jigargyaji.mp3",
+    filePath: "90/jigargyaji.mp3",
     coverPath: "/Img/Harekrishna.jpeg",
   },
   {
     songName: "Pyaar Hua Ikraar Hua",
-    filePath: "/90/pyarhuaikrar.mp3",
+    filePath: "90/pyarhuaikrar.mp3",
     coverPath: "/Img/Heram.jpeg",
   },
   {
     songName: "Chura Liya Hai Tumne",
-    filePath: "/90/churaliyahai.mp3",
+    filePath: "90/churaliyahai.mp3",
     coverPath: "/Img/Kishori.jpeg",
   },
   {
     songName: "Ek Pyaar Ka Nagma",
-    filePath: "/90/pyarkanagma.mp3",
+    filePath: "90/pyarkanagma.mp3",
     coverPath: "/Img/Madhu.jpeg",
   },
   {
     songName: "In Aankhon Ki Masti Mein",
-    filePath: "/90/aankhonkimasti.mp3",
+    filePath: "90/aankhonkimasti.mp3",
     coverPath: "/Img/namonamo.jpeg",
   },
   {
     songName: "Dekha Ek Khwab",
-    filePath: "/90/dekhaekkhwab.mp3",
+    filePath: "90/dekhaekkhwab.mp3",
     coverPath: "/Img/Narayan.jpeg",
   },
   {
     songName: "Udein Jab Jab Zulfein Teri",
-    filePath: "/90/udeinjabjab.mp3",
+    filePath: "90/udeinjabjab.mp3",
     coverPath: "/Img/Radharani.jpeg",
   },
-  { songName: "Beqarar Karke Hume", filePath: "/90/bekararkarke.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
+  { songName: "Beqarar Karke Hume", filePath: "90/bekararkarke.mp3", coverPath: "/Img/Ramsiyaram.jpeg" },
   {
     songName: "Ek Pardeshi Mera Dil Le Gya ",
-    filePath: "/90/ekpardeshi.mp3",
+    filePath: "90/ekpardeshi.mp3",
     coverPath: "/Img/Hanuman.jpeg",
   },
   {
     songName: "Ajib Dastan Hai Ye",
-    filePath: "/90/ajibdastan.mp3",
+    filePath: "90/ajibdastan.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Likhe Jo Khat Tujhe",
-    filePath: "/90/khat.mp3",
+    filePath: "90/khat.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tu Tu Hai Wahi",
-    filePath: "/90/tutuhai.mp3",
+    filePath: "90/tutuhai.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Ye Ratein Ye Mausam",
-    filePath: "/90/yeraatein.mp3",
+    filePath: "90/yeraatein.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Neele Neele Ambar Pe",
-    filePath: "/90/neeleneele.mp3",
+    filePath: "90/neeleneele.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Tum Mile",
-    filePath: "/90/tummile.mp3",
+    filePath: "90/tummile.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Sagar Jaisi Aankhon Wali",
-    filePath: "/90/sagarjaisi.mp3",
+    filePath: "90/sagarjaisi.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Mere Saamnewali Khidki Pe",
-    filePath: "/90/meresamnewali.mp3",
+    filePath: "90/meresamnewali.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Gulaabi Aankhein",
-    filePath: "/90/gulabiaankhein.mp3",
+    filePath: "90/gulabiaankhein.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Panna Ki Tamannah",
-    filePath: "/90/pannakitamana.mp3",
+    filePath: "90/pannakitamana.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
   {
     songName: "Ye Dil Tum Bin",
-    filePath: "/90/yediltumbin.mp3",
+    filePath: "90/yediltumbin.mp3",
     coverPath: "/Img/Sawlisurat.jpeg",
   },
 ];
