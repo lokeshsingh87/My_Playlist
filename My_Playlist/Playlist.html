@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPlaylist</title>
+    <link rel="stylesheet" href="/Css/style.css" />
+    <link rel="stylesheet" href="/Css/Playlist.css">
+    <link rel="icon" type="" href="/Img/favicon.ico">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div class="logo">
+                    <img src="/Img/Logo.png" alt="MyPlaylist" >MyPlaylist
+                </div>
+            </li>
+            <li> <a href="index.html"> Home</a></li>
+            <li><a href="Playlist.html">Playlist</a></li>
+            <li> <a href="About.html">About</a> </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songplaylist">
+            <h2>Everyday Playlist</h2>
+            <div class="creator">
+                <div class="playlist one">
+                    <a href="/Bollywood mix.html"><img src="/Img/Mix.jpeg" alt=""></a>
+                    <h4>Bollywood Mix</h4>
+                </div>
+                <div class="playlist two">
+                    <a href="/Gym.html"><img src="/Img/Gym.jpeg" alt=""></a>
+                    <h4>Gym Supremacy</h4>
+                </div>
+                <div class="playlist three">
+                    <a href="/SoulConnection.html"><img src="/Img/Soul.jpeg" alt=""></a>
+                    <h4>Soul Connection</h4>
+                </div>
+            </div>
+                <h2>Moody Evenings</h2>
+            <div class="englishhits">
+                <div class="playlist four">
+                    <a href="/Arijit.html"><img src="/Img/Arijit.jpeg" alt=""></a>
+                    <h4>Arijit's Mix</h4>
+                </div>
+                <div class="playlist five">
+                    <a href="/Chill.html"><img src="/Img/Chill.jpeg" alt=""></a>
+                    <h4>Chill Lofi</h4>
+                </div>
+                <div class="playlist six">
+                    <a href="/Sad.html"><img src="/Img/Sad.jpeg" alt=""></a>
+                    <h4>Sad Vibes</h4>
+                </div>
+            </div>
+                <h2>Top Romance Hit's</h2>
+            <div class="hindihits">
+                <div class="playlist seven">
+                    <a href="/Romance.html"><img src="/Img/Romantic.jpeg" alt=""></a>
+                    <h4>Unseen Romanticism</h4>
+                </div>
+                <div class="playlist eight">
+                    <a href="/H90s.html"><img src="/Img/90s.jpeg" alt=""></a>
+                    <h4>90's Love Hit's</h4>                   
+                </div>
+                <div class="playlist nine">
+                    <a href="/Bollywoodromance.html"><img src="/Img/Bollywood romance.jpeg" alt=""></a>
+                    <h4>Bollywood Romance</h4>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="musicBar" value="0" min="0" max="100" name="range" >
+        <div class="volume">
+            <i class="fa-solid fa-volume-low"></i>
+            <input type="range" id="volumeBar" value="0" min="0" max="100" name="range">
+            <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div class="musicicons">
+            <i class="fa-solid fa-2x fa-backward" id="backward"></i>
+            <i class="fa-solid fa-2x fa-play" id="playpause"></i>
+            <i class="fa-solid fa-2x fa-forward" id="forward"></i>
+        </div>
+        <div class="songinfo">
+            <span id="name"></span>
+        </div>
+    </div>
+    <footer class="ownership">
+        <p> All Rights Reserved &copy; original MyPlaylist&trade;</p>
+    </footer>
+    <script src="https://bit.ly/codedamn-web-console">
+    </script>
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/a604f8085f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

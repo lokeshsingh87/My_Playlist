@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPlaylist</title>
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/Playlist.css">
+    <link rel="stylesheet" href="/Css/SoulConnection.css">
+    <link rel="icon" type="" href="/Img/favicon.ico">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div class="logo">
+                    <img src="/Img/Logo.png" alt="MyPlaylist" >MyPlaylist
+                </div>
+            </li>
+            <li> <a href="index.html"> Home</a></li>
+            <li><a href="Playlist.html">Playlist</a></li>
+            <li> <a href="About.html">About</a> </li>
+        </ul>
+    </nav>
+    <div class="container soul">
+        <div class="playlistcover">
+            <img src="/Img/Romantic.jpeg" alt="">
+            <h2>Bollywood Romance</h2>
+            <h5>English Romantic Songs</h5>
+            <h4>Playlist By Meenu</h4>
+            <div class="btn">
+                <button class="Play" id="playbtn"><i class="fa fa-solid fa-play" id="1"></i> <span id="2">PLAY</span> </button>
+                <button class="Shuffle" id="shufflebtn"><i class="fa fa-solid fa-shuffle" ></i> SHUFFLE</button>
+            </div>
+        </div>
+        <div class="songlist">
+            <div class="songs">
+                <img src="/Img/perfect.jpeg" alt="">
+                <div class="info">
+                    <h3>Perfect</h3>
+                    <h5>Ed Sheeran</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/heatwaves.jpeg" alt="">
+                <div class="info">
+                    <h3>Heat Waves</h3>
+                    <h5>Glass Animals</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/harleys.jpeg" alt="">
+                <div class="info">
+                    <h3>Harleys In Hawaii</h3>
+                    <h5>Katy Perry</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/baby.jpeg" alt="">
+                <div class="info">
+                    <h3>Baby</h3>
+                    <h5>Justin Beiber and Ludacris</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/umbrella.jpeg" alt="">
+                <div class="info">
+                    <h3>Umbrella</h3>
+                    <h5>Rihanna and Jay-Z</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/athousandyear.jpeg" alt="">
+                <div class="info">
+                    <h3>A Thousand Years</h3>
+                    <h5>Christina Perri</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/untilifoundyou.jpeg" alt="">
+                <div class="info">
+                    <h3>Untill I Found You</h3>
+                    <h5>Stephen Sanchez</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/atmyworst.jpeg" alt="">
+                <div class="info">
+                    <h3>At My Worst</h3>
+                    <h5>Pink Sweat$</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/makeyoumine.jpeg" alt="">
+                <div class="info">
+                    <h3>Make You Mine</h3>
+                    <h5>PUBLIC</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/girlslikeyou.jpeg" alt="">
+                <div class="info">
+                    <h3>Girls Like You</h3>
+                    <h5>Cardi B and Maroon 5</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/senorita.jpeg" alt="">
+                <div class="info">
+                    <h3>Senorita</h3>
+                    <h5>Shawn Mendes and Camila Cabello</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/lovemelike.jpeg" alt="">
+                <div class="info">
+                    <h3>Love Me Like You Do</h3>
+                    <h5>Elena Gray</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/ilikeme.jpeg" alt="">
+                <div class="info">
+                    <h3>I Like Me Better When I'm With You</h3>
+                    <h5>LAUV</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/loveyourvoice.jpeg" alt="">
+                <div class="info">
+                    <h3>Love Your Voice</h3>
+                    <h5>Jony</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="musicBar" value="0" min="0" max="100" name="range" >
+        <div class="songinfo">
+            <span id="name"></span>
+        </div>
+        <div class="volume">
+            <i class="fa-solid fa-volume-low"></i>
+            <input type="range" id="volumeBar" value="50" min="0" max="100" name="range">
+            <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div class="musicicons">
+            <i class="fa-solid fa-2x fa-backward" id="backward"></i>
+            <i class="fa-solid fa-2x fa-play" id="playpause"></i>
+            <i class="fa-solid fa-2x fa-forward" id="forward"></i>
+        </div>
+    </div>
+    <footer class="ownership">
+        <p> All Rights Reserved &copy; original MyPlaylist&trade;</p>
+    </footer>
+    <script src="https://bit.ly/codedamn-web-console">
+    </script>
+    <script src="js/romance.js"></script>
+    <script src="https://kit.fontawesome.com/a604f8085f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

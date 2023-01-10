@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPlaylist</title>
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/Playlist.css">
+    <link rel="stylesheet" href="/Css/SoulConnection.css">
+    <link rel="icon" type="" href="/Img/favicon.ico">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div class="logo">
+                    <img src="/Img/Logo.png" alt="MyPlaylist" >MyPlaylist
+                </div>
+            </li>
+            <li> <a href="index.html"> Home</a></li>
+            <li><a href="Playlist.html">Playlist</a></li>
+            <li> <a href="About.html">About</a> </li>
+        </ul>
+    </nav>
+    <div class="container soul">
+        <div class="playlistcover">
+            <img src="/Img/Soul.jpeg" alt="">
+            <h2>Soul Connection</h2>
+            <h5>Have Your Peace Of Mind</h5>
+            <h4>Playlist By Lokesh Singh</h4>
+            <div class="btn">
+                <button class="Play" id="playbtn"><i class="fa fa-solid fa-play" id="1"></i> <span id="2">PLAY</span> </button>
+                <button class="Shuffle" id="shufflebtn"><i class="fa fa-solid fa-shuffle" ></i> SHUFFLE</button>
+            </div>
+        </div>
+        <div class="songlist">
+            <div class="songs">
+                <img src="/Img/Aathma.jpeg" alt="">
+                <div class="info">
+                    <h3>Aathma Rama</h3>
+                    <h5>Brodha V</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Harekrishna.jpeg" alt="">
+                <div class="info">
+                    <h3>Hare Krishna Hare Rama</h3>
+                    <h5>Jubin Nautiyal,Ayaz Kohli and Shabbir Ahmad</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Heram.jpeg" alt="">
+                <div class="info">
+                    <h3>Hey Ram</h3>
+                    <h5>Jagjit Singh</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Kishori.jpeg" alt="">
+                <div class="info">
+                    <h3>Kishori Kuch Aisa</h3>
+                    <h5>Jai Kishori Ji</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Madhu.jpeg" alt="">
+                <div class="info">
+                    <h3>Madhurakshtam</h3>
+                    <h5>Nandlal Chhanga</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Namo.jpeg" alt="">
+                <div class="info">
+                    <h3>Namo Namo</h3>
+                    <h5>Amit Trivedi</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Narayan.jpeg" alt="">
+                <div class="info">
+                    <h3>Narayan Mil Jayega</h3>
+                    <h5>Sanskar Shrivas</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Radharani.jpeg" alt="">
+                <div class="info">
+                    <h3>Radha Rani Lage</h3>
+                    <h5>Suprabha KV</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Ramsiyaram.jpeg" alt="">
+                <div class="info">
+                    <h3>Ram Siya Ram</h3>
+                    <h5>Sachet Tandon</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Hanuman.jpeg" alt="">
+                <div class="info">
+                    <h3>Sankatmochan Hanuman Ashtak</h3>
+                    <h5>Hariharan</h5>
+                </div>
+            </div>
+            <div class="songs">
+                <img src="/Img/Sawlisurat.jpeg" alt="">
+                <div class="info">
+                    <h3>Sawli Surat Pe Mohan</h3>
+                    <h5>Sanju Sharma</h5>
+                </div>
+            </div>
+            <div class="songs"></div>
+            <div class="songs"></div>
+            <div class="songs"></div>
+            <div class="songs"></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" id="musicBar" value="0" min="0" max="100" name="range" >
+        <div class="songinfo">
+            <span id="name"></span>
+        </div>
+        <div class="volume">
+            <i class="fa-solid fa-volume-low"></i>
+            <input type="range" id="volumeBar" value="50" min="0" max="100" name="range">
+            <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div class="musicicons">
+            <i class="fa-solid fa-2x fa-backward" id="backward"></i>
+            <i class="fa-solid fa-2x fa-play" id="playpause"></i>
+            <i class="fa-solid fa-2x fa-forward" id="forward"></i>
+        </div>
+        
+    </div>
+    <footer class="ownership">
+        <p> All Rights Reserved &copy; original MyPlaylist&trade;</p>
+    </footer>
+    <script src="https://bit.ly/codedamn-web-console">
+    </script>
+    <script src="/js/soul.js"></script>
+    <script src="https://kit.fontawesome.com/a604f8085f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
