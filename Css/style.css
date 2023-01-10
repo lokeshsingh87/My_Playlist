@@ -7,6 +7,7 @@ body{
 }
 nav ul {
     display: flex;
+    width: 100vw;
     height: 7vh;
     background-color: black;
     color: white;
@@ -48,6 +49,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
     height: 7vh;
     background-color: black;
     color: white;
@@ -56,16 +58,20 @@ nav ul li a:hover{
 
 
 @media only screen and (max-width:1000px) {
-    body{
-        background-color: red;
-    }
+*{
+    margin: 0;
+    padding: 0;
+}
     .logo img{
         width: 30px;
+        padding-left: 15px;
+        padding-right: 10px;
     }
     .logo{
-        padding-right: 100px;
+        padding-right: 50px;
     }
     nav ul li a{
-        padding: 0 15px;
+        padding: 0 10px;
+        font-size: medium;
     }
 }
