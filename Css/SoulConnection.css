@@ -125,8 +125,60 @@
 
 
 @media only screen and (max-width:1000px) {
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 20px;
+        padding: 0 5px;
+        
+    }
     .btn button{
-        padding: 0 20px;
+        padding: 0 10px;
+        width: 180px;
+        height: 30px;
+    }
+    .play{
+        margin-right: 40px;
+    }
+    .shuffle{
+        margin-left: 40px;
+    }
+    .soul{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .playlistcover img{
+        display: flex;
+        margin: auto auto;
+        margin-top: 20px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .playlistcover h2{
+        color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-family: 'Sofia Sans Condensed', sans-serif;
+    }
+    .playlistcover h5{
+        color: grey;
+        margin-left: 55px;
+        margin-top: 5px;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .playlistcover h4{
+        color:red;
+        margin-left: 55px;
+        margin-top: 10px;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .volume{
+        padding-left: 50vw;
+    }
+    #volumeBar{
+        width: 120px;
     }
 }
 
