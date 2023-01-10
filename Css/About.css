@@ -31,3 +31,9 @@
     color: gray;
     font-size: larger;
 }
+
+@media only screen and (max-width:1000px) {
+    .about{
+        width: 90%;
+    }
+}
