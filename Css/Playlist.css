@@ -1,0 +1,208 @@
+.songplaylist {
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 1800px;
+    background-color: black;
+}
+
+.songplaylist h2 {
+    padding: 0 40px;
+    margin-top: 20px;
+    color: red;
+}
+
+.creator {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h4 {
+    color: grey;
+}
+
+.one {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.one h4 {
+    padding-left: 34px;
+    margin-top: 15px;
+}
+
+.two {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.two h4 {
+    padding-left: 32px;
+    margin-top: 15px;
+}
+
+.three {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.three h4 {
+    padding-left: 34px;
+    margin-top: 15px;
+}
+
+.englishhits {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.four {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.four h4 {
+    padding-left: 45px;
+    margin-top: 15px;
+}
+
+.five {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.five h4 {
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+.six {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.six h4 {
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+.hindihits {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.seven {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.seven h4 {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.eight {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.eight h4 {
+    padding-left: 38px;
+    margin-top: 15px;
+}
+
+.nine {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid grey;
+    height: 200px;
+}
+
+.nine h4 {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.playlist img {
+    display: flex;
+    margin-top: 10px;
+    padding: 0 30px;
+    justify-content: center;
+    align-content: center;
+    height: 120px;
+
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 18vh;
+    position: sticky;
+    bottom: 0;
+}
+
+#musicBar {
+    width: 70vw;
+    cursor: pointer;
+}
+
+.musicicons {
+    margin-top: 20x;
+}
+
+.musicicons i {
+    padding: 0 10px;
+    color: rgb(240, 30, 30);
+}
+.volume{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 54vw;
+}
+.fa-solid{
+    padding: 0 8px;
+}
+#volumeBar{
+    width: 30vw;
+    display: flex;
+    cursor: pointer;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    color: rgb(202, 15, 15);
+    padding-right: 55vw;
+    
+}

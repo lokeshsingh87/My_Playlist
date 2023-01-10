@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Poppins:wght@300&family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap');
+.soul {
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 65%;
+    height: 2800px;
+    background-color: black;
+}
+
+.playlistcover img{
+    display: flex;
+    margin: auto auto;
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 10px;
+}
+.playlistcover h2{
+    color: white;
+    margin-left: 23vw;
+    margin-top: 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+.playlistcover h5{
+    color: grey;
+    margin-left: 24vw;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    padding: 0 10px;
+    
+}
+.btn button{
+    padding: 0 32px;
+    width: 180px;
+    height: 30px;
+}
+.Play{
+    margin-right: 60px;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.Shuffle{
+    margin-left: 50px;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid grey;
+    color: white;
+}
+.playlistcover h4{
+    color:red;
+    margin-left: 24vw;
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.fa{
+    margin-right: 8px;
+}
+.songlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.songs{
+    display: flex;
+    margin-top: 20px;
+}
+.songs img{
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.info h3{
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.info h5{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+
+}
+.volume{
+    display: flex;
+    margin-top: 5px;
+    padding-left: 54vw;
+}
+.fa-solid{
+    padding: 0 8px;
+}
+#volumeBar{
+    width: 200px;
+    display: flex;
+    cursor: pointer;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    color: rgb(202, 15, 15);
+    padding-right: 55vw;
+    
+}
+
+
+@media only screen and (max-width:1000px) {
+    .btn button{
+        padding: 0 20px;
+    }
+}
+
+
+
+
+
+
+
